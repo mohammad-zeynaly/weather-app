@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/assets/styles/app-min.css">
+    <title> Weather App </title>
+</head>
+<body class="font-montserrat bg-[url('../img/bg.jpg')] bg-cover bg-[top_center] bg-no-repeat">
+    
+
+<section id="weather-app" class=" flex flex-col min-h-screen bg-[linear-gradient(to_bottom,rgba(0,0,0,0.3),rgba(0,0,0,0.6))]">
+<div class="max-w-sm mx-auto text-center text-white">
+    
+<!-- Search City or Country Weather -->
+<div class="my-10">
+    <div class="container flex justify-center items-center px-4 font-semibold">
+        <input id="search-box" type="text" class="focus:outline-none focus:bg-[#ffffffb3] placeholder:text-[#757575] w-full text-[#313131] text-lg py-[10px] px-[15px] bg-[#ffffff99] rounded-tr-none rounded-tl-2xl  rounded-br-2xl rounded-bl-none border-b-[3px] border-solid border-[#DF8E00]" autocomplete="off" placeholder="Search for a city...">
+        <button id="search-btn" class="text-[#313131] text-[17px] py-[10px] px-[12px] bg-[#ffffff99] rounded-2xl ml-2">search</button>
+    </div>
+</div>
+
+<!--- show Country And Date --->
+<div class="">
+    <h3 id="location" class="text-3xl">Northampton, GB</h3>
+    <h4 id="date" class="mt-2">Thursday 10 January 2023</h4>
+</div>
+
+<!--- show Temp --->
+<div class="my-5">
+   <h2 id="temp" class="text-[100px] text-white font-bold drop-shadow-[0_6px_rgba(0,0,0,0.5)]">15<span>°c</span></h2>
+</div>
+
+<!--- show Weather --->
+<div class="">
+    <em id="weather" class="drop-shadow-[0_3px_rgba(0,0,0,0.4)] text-3xl font-bold mb-4 block">Sunny</em>
+    <span id="hi-low" class="drop-shadow-[0_3px_rgba(0,0,0,0.4)] text-2xl">13°c / 16°c</span>
+</div>
+    
+</div>
+</section>
+
+
+<script src="./src/assets/script/app.js"></script>
+</body>
+</html>
