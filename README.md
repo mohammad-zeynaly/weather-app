@@ -2,7 +2,7 @@
 ---
 
 # a minimal weather app!
-## [review online](https://mohammad-zeynali.github.io/weather-app/)
+## [review online](https://mohammad-zeynaly.github.io/weather-app/)
 
 ---
 ## tips
